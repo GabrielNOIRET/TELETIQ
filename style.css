@@ -1,0 +1,56 @@
+body{padding: 0;
+margin: 0;
+background-color: grey}
+
+html {padding: 0;
+margin: 0;}
+
+h1 {padding: 100;
+margin: 100;
+text-align: center;
+font-size: 1.2em}
+
+header{
+	position: relative;
+	display: flex;
+	align-items: center;
+	justify-content: center;
+	background-color: #6ABD33;
+	color: white;
+}
+
+#map{
+	height: 600px;
+	width: 70%
+}
+
+#main {background-color: #E8F3E0;
+	position: relative;
+	display: flex;
+	justify-content: center;
+}
+
+#controle{
+	padding-left: 3%;
+	width: 30%;
+}
+
+footer{
+	display: flex;
+	justify-content: center;
+	align-items: center;
+	color: white;
+}
+
+#legend{position: absolute;
+	right: 20px;
+	top: 20px;	}
+
+#logo{position: absolute;
+	left: 20px;
+	width: 7em;
+height: auto;}
+
+p{
+	margin: 0;
+}
